@@ -1,0 +1,51 @@
+.contact {
+  background: blue;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header, footer {
+  background: lightgray;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  color: #3a2a8e;
+}
+
+header button, footer button {
+  background: #b65599;
+}
+
+header button:hover, footer button:hover {
+  background: blue;
+}
+
+header button::after, footer button::after {
+  content: " ---";
+}
+
+header p, footer p {
+  color: pink;
+}
+
+footer {
+  background: lightgreen;
+  width: 80vw;
+}
+/*# sourceMappingURL=style.css.map */

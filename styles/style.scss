@@ -1,0 +1,37 @@
+
+@import "./mixins";
+@import "./variables";
+
+@import "./secondary-scss";
+
+header {
+    @include flexCenter(lightgray);
+
+    height: 100vh;
+    color: $textColor;
+
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background: blue;
+        }
+        &::after {
+            content: " ---";
+        }
+    }
+
+    p {
+        color: pink;
+    }
+}
+
+footer {
+    @extend header;
+    background: lightgreen;
+    width: 100vw - 20vw;
+}
+
+
+
+
+
